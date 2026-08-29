@@ -78,10 +78,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp Q  &kp W  &kp E      &kp R               &kp T        &kp Y            &kp U      &kp I          &kp O    &kp P
-                &kp A  &kp S  &kp D      &kp F               &kp G        &kp H            &kp J      &kp K          &kp L    &kp SEMICOLON
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V               &kp B        &kp N            &kp M      &kp COMMA      &kp DOT  &kp FSLH       &kp SQT
-                              &kp LCTRL  &mt LEFT_GUI ENTER  &lt 1 TAB    &lt 2 BACKSPACE  &kp SPACE  &kp RIGHT_ALT
+                &kp Q  &kp W  &kp E      &kp R           &kp T              &kp Y            &kp U      &kp I          &kp O    &kp P
+                &kp A  &kp S  &kp D      &kp F           &kp G              &kp H            &kp J      &kp K          &kp L    &kp SEMICOLON
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V           &kp B              &kp N            &kp M      &kp COMMA      &kp DOT  &kp FSLH       &kp SQT
+                              &kp LCTRL  &lt 1 LEFT_GUI  &lt 2 BACKSPACE    &lt 3 BACKSPACE  &kp SPACE  &kp RIGHT_ALT
             >;
         };
 
@@ -134,6 +134,15 @@
           &kp F11   &kp F12  &kp MINUS       &kp EQUAL  &kp PAGE_UP      &kp LEFT   &kp DOWN   &kp UP_ARROW  &kp RIGHT     &kp BACKSLASH
 &kp CAPS  &kp HOME  &kp END  &kp UNDERSCORE  &kp PLUS   &kp PAGE_DOWN    &kp TILDE  &kp GRAVE  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_CLR     &kp PIPE
                              &trans          &trans     &trans           &trans     &trans     &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
