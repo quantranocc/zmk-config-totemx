@@ -20,11 +20,6 @@
 		diode-direction = "col2row";		
 	};
 
-    sensors: sensors {
-        compatible = "zmk,keymap-sensors";
-    };
-
-	// TODO: RGB node(s)
 };
 
 &i2c0 {
