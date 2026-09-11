@@ -7,10 +7,9 @@
 #include "totem_common.dtsi"
 
 / {
-    chosen {
-        zmk,kscan = &kscan0;
-        zmk,matrix_transform = &default_transform;
-    };
+	chosen {
+		zmk,matrix_transform = &default_transform;
+	};
 
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
@@ -27,12 +26,9 @@
                                 RC(3,2) RC(3,3) RC(3,4)    RC(3,5) RC(3,6) RC(3,7)         
         >;
     };
+};
 
-
-    kscan0: kscan_0 {
-        compatible = "zmk,kscan-gpio-matrix";
-        label = "KSCAN";
-        
+&kscan0 {
         diode-direction = "col2row"; 
         row-gpios
             = <&xiao_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
@@ -40,5 +36,4 @@
             , <&xiao_d 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&xiao_d 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
-    };
 };
