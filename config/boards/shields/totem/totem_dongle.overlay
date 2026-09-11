@@ -43,3 +43,13 @@
         >;
     };
 };
+/ {
+    chosen {
+        zephyr,display = &lcd0;
+    };
+};
+
+&lcd0 {
+    status = "okay";
+    /* Add your display configuration here */
+};
