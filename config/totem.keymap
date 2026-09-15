@@ -87,10 +87,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                  &kp Q             &kp W  &kp E      &kp R           &kp T              &kp Y          &kp U      &kp I          &kp O    &kp P
-                  &kp A             &kp S  &kp D      &kp F           &kp G              &kp H          &kp J      &kp K          &kp L    &kp APOSTROPHE
-&kp LEFT_CONTROL  &mt LEFT_SHIFT Z  &kp X  &kp C      &kp V           &kp B              &kp N          &kp M      &kp COMMA      &kp DOT  &mt RIGHT_SHIFT SLASH  &kp RIGHT_ALT
-                                           &kp LCTRL  &lt 1 LEFT_GUI  &lt 2 BACKSPACE    &mt DEL ENTER  &kp SPACE  &kp RIGHT_ALT
+                  &kp Q             &kp W  &kp E      &kp R           &kp T              &kp Y                &kp U      &kp I          &kp O    &kp P
+                  &kp A             &kp S  &kp D      &kp F           &kp G              &kp H                &kp J      &kp K          &kp L    &kp APOSTROPHE
+&kp LEFT_CONTROL  &mt LEFT_SHIFT Z  &kp X  &kp C      &kp V           &kp B              &kp N                &kp M      &kp COMMA      &kp DOT  &mt RIGHT_SHIFT SLASH  &kp RIGHT_ALT
+                                           &kp LCTRL  &lt 1 LEFT_GUI  &lt 2 BACKSPACE    &mt RIGHT_WIN ENTER  &kp SPACE  &kp RIGHT_ALT
             >;
         };
 
@@ -140,7 +140,7 @@
 
             bindings = <
           &kp F1    &kp F2   &kp F3  &kp F4  &kp F5           &kp F6         &kp F7          &kp F8     &kp F9         &kp F10
-          &kp F11   &kp F12  &none   &none   &kp PAGE_UP      &kp SEMICOLON  &kp UP_ARROW    &kp PLUS   &kp MINUS      &kp EQUAL
+          &none     &none    &none   &none   &kp PAGE_UP      &kp SEMICOLON  &kp UP_ARROW    &kp PLUS   &kp MINUS      &kp EQUAL
 &kp CAPS  &kp HOME  &kp END  &none   &none   &kp PAGE_DOWN    &kp LEFT       &kp DOWN_ARROW  &kp RIGHT  &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSLASH
                              &trans  &trans  &trans           &trans         &trans          &trans
             >;
